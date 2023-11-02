@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(25, 39, 52);
     color: white;
@@ -5,9 +8,44 @@ body{
 }
 .navbar {
     display: flex;
+    flex-direction: row;
     height: 85px;
     background-color: #22303c;
+    border-bottom: 3px solid #1f8d4d;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
+.menu {
+    transform: scale(1.4);
+}
+.toggle {
+    background-color: darkcyan;
+    display: flex;
+    cursor: pointer;
+    padding: 5px 10px;
+    padding-top: 0;
+    border-radius: 4px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+.title {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+.color {
+    margin-right: 30px;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+
 .flex-container {
     display: flex;
     position: fixed;
