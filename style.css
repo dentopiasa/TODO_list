@@ -79,6 +79,7 @@ body{
 .sun {
     transform: scale(1.3);
     width: 24.7px;
+    opacity: 0; /*remove that, solve later*/
 }
 .material-icons-round {
     font-family: 'Material Icons Round';
@@ -105,21 +106,58 @@ body{
     border-radius: 50%;
     transition: transform 0.2s linear;
   }
-
-
-
-
-
 .flex-container {
     display: flex;
     position: fixed;
     width: 100%;
     height: 100%;
+    
 }
 .sidebar{
     width: 450px;
     background-color: #15202b;
 }
+.home-title {
+    padding: 20px 20px;
+    font-weight: 900;
+    font-size: 20px;  
+}
+.projects-title {
+    padding: 20px 20px;
+    font-weight: 900;
+    font-size: 20px;  
+}
+.home-title > hr {
+    height: 3px;
+    background-color: white;
+}
+.projects-title >hr {
+    height: 3px;
+    background-color: white;
+}
+.allTasks, .today, .next-seven, .important, .addProject {
+    padding-left: 35px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.sidebar img {
+    width: 27px;
+    height: 27px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.addProject span {
+    width: 27px;
+    height: 27px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+
+
 .main {
     width: 100%;
     background-color: #192734;
