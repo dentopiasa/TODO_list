@@ -167,11 +167,13 @@ body{
 .message-box {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 85px;
     width: 90%;
     background-color: #1f8d4d;
     margin-top: 20px;
+    padding-left: 20px;
+    font-size: 35px;
 }
 .selection-bg {
     background-color: darkgreen;
