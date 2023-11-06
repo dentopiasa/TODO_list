@@ -182,28 +182,43 @@ body{
 .projects {
     display: flex;
     flex-direction: column;
-    justify-content: center;;
 }
 .project-input {
     display: flex;
+    position: relative;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-left: 18px;
+    padding-bottom: 3px;
+    font-weight: normal;
+    font-size: 15px;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
 }
 .project-input input{
-    width: 210px; 
+    width: 220px; 
     height: 30px;
     border-radius: 7px;
-}
-.project-name{
 
 }
-
-.btn{
+.input-field {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 22px;
+}
+.btn {
     justify-content: center;
     align-items: center;
     width: 60px;
     margin-top: 5px;;
     margin-left: 10px;
+    border-style: none;
+    outline-style: none;
+    font-weight: 900;
+}
+.project-name {
+    border: 1px solid grey;
+    margin-right: 5px;
 }
