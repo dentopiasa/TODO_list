@@ -185,22 +185,21 @@ body{
 }
 .project-input {
     display: flex;
-    position: relative;
     flex-direction: column;
-    align-items: center;
     padding-bottom: 3px;
     font-weight: normal;
     font-size: 15px;
     align-items: center;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     padding-top: 5px;
+    display: none;
 }
 .project-input input{
-    width: 220px; 
+    width: 200px; 
     height: 30px;
     border-radius: 7px;
-
+    background-color: lightgrey;
 }
 .input-field {
     display: flex;
@@ -221,4 +220,5 @@ body{
 .project-name {
     border: 1px solid grey;
     margin-right: 5px;
+
 }
